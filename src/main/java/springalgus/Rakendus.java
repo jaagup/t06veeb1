@@ -11,7 +11,7 @@ public class Rakendus {
     String tervitusfunktsioon() {
         return "Ahoi!";
     }
-    
+     
     @RequestMapping("/tervitus")
     String tervitus2(String eesnimi){
         return "Tere, "+eesnimi;
